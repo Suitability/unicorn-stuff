@@ -1,0 +1,42 @@
+{
+  "name": "unicorn-bot",
+  "version": "0.0.1",
+  "description": "something",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suitability/unicorn-stuff.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Suitability/unicorn-stuff/issues"
+  },
+  "homepage": "https://github.com/Suitability/unicorn-stuff#readme",
+  "signale": {
+    "displayScope": true,
+    "displayBadge": true,
+    "displayDate": false,
+    "displayFilename": true,
+    "displayLabel": true,
+    "displayTimestamp": true,
+    "underlineLabel": true,
+    "underlineMessage": false,
+    "underlinePrefix": false,
+    "underlineSuffix": false,
+    "uppercaseLabel": false
+  },
+  "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/rest": "^0.4.1",
+    "discord-api-types": "^0.32.0",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "signale": "^1.4.0"
+  }
+}
